@@ -1,0 +1,28 @@
+{
+  "name": "universal-monitor",
+  "description": "Universal monitoring bus",
+  "author": "Stephen Belanger <admin@stephenbelanger.com> (https://github.com/qard)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/Qard/universal-monitoring-bus#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qard/universal-monitoring-bus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qard/universal-monitoring-bus/issues"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "convert-hrtime": "^2.0.0",
+    "is-subset": "^0.1.1",
+    "moving-average": "^1.0.0",
+    "uuid": "^3.2.1"
+  }
+}
